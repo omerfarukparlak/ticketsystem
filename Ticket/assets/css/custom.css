@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Montserrat', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.p-l-0{padding-left:0;}
+.p-r-0{padding-right:0;}
+.login-page {
+    margin-top: 200px;
+}
+
+
+/* Login Sayfası*/
+.logo{
+	margin-bottom:10px;
+}
+.tab {
+  overflow: hidden;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 9px 7px;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+.tab button:hover {
+    border-bottom: 2px solid #4346e9;
+}
+
+.tab button.active {
+  border-bottom: 2px solid #4346e9;
+}
+
+.tabcontent {
+    display: none;
+    border-top: none;
+    margin-top: 20px;
+}
+
+
+.form-grup {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.form-grup label {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+	margin-bottom:10px;
+}
+.form-grup input {
+    width: 100%;
+}
+.form-grup input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+    text-indent: 25px;
+}
+.form-grup i {
+    position: absolute;
+    font-size: 24px;
+    top: 34px;
+    left: 5px;
+    border-right: 1px solid #ddd;
+}
+
+a.sifremi-unuttum {
+    font-size: 14px;
+    text-align: right;
+    display: block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #5d84d4;
+    font-weight: 700;
+}
+input.giris-yap {
+    border: 0;
+    padding: 10px;
+    background: #4647ed;
+    margin-left: 13px;
+    border-radius: 6px;
+    color: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.tab-baslik {
+    margin-bottom: 23px;
+    font-size: 15px;
+}
+.tab-baslik p {
+    margin-bottom: 10px;
+    line-height: 120%;
+}
